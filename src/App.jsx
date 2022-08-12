@@ -4,11 +4,11 @@ import './App.css';
 
 function App() {
 
-/* Papaprase to import our goggle sheet */
+/* Papaprase to import our goggle sheet 1BMroS0nG5xjp08i4pElZF6Mn4qPix8Ui-CrCgd2SEGI ######## 2PACX-1vTuRicELuRPIJutCDIi9BdcY3jc_SUGfdiNOaaVHC476070kXj3EQO_Zv9EH21w5BhH9b4O6KyujXwE    */
   const Papa = require("papaparse");
 
   const filePrasing = () => new Promise((resolve)=> {
-    Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTuRicELuRPIJutCDIi9BdcY3jc_SUGfdiNOaaVHC476070kXj3EQO_Zv9EH21w5BhH9b4O6KyujXwE/pub?gid=0&single=true&output=csv", {
+    Papa.parse("https://docs.google.com/spreadsheets/d/e/1BMroS0nG5xjp08i4pElZF6Mn4qPix8Ui-CrCgd2SEGI/pub?gid=0&single=true&output=csv", {
       download: true,
       header: true,
       newline: "",
