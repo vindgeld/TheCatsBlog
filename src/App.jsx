@@ -8,7 +8,7 @@ function App() {
   const Papa = require("papaparse");
 
   const filePrasing = () => new Promise((resolve)=> {
-    Papa.parse("https://docs.google.com/spreadsheets/d/e/1BMroS0nG5xjp08i4pElZF6Mn4qPix8Ui-CrCgd2SEGI/pub?gid=0&single=true&output=csv", {
+    Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vRYbEFf1j2Ehu_-sl-SSVRupZvIWUAzJ0wi5fPpuORyM1atNSfxtqDAnrpcPH3EXciltIbH0LOiGfZE/pub?gid=0&single=true&output=csv", {
       download: true,
       header: true,
       newline: "",
