@@ -72,7 +72,7 @@ function App() {
           }
         </div>
           <div className='footer'>
-            <p className='footerText'>This web site was created by Reda-codes</p>
+            <p className='footerText'>This web site was created by menungsa</p>
             <ul>
               <li><a href="https://github.com/Reda-codes" target="_blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/reda-med/" target="_blank">LinkedIn</a></li>
